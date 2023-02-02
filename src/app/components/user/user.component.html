@@ -1,0 +1,145 @@
+
+
+        <div class="mainCon">
+            <div class="section1">
+                <app-sidebar></app-sidebar>
+
+            </div>
+            <div class="section2">
+                <app-navbar ></app-navbar>
+              <div class="mainContainer flex flex-col pl-5 pr-3">
+                <div class="createtenant flex justify-between " >
+                    <div class="tenantText text-lg font-semibold">User</div>
+                    <!-- The button to open modal -->
+                    <label for="my-modal" class="btn mr-3">New user</label>
+
+
+                    <!-- Put this part before </body> tag -->
+                <input type="checkbox" id="my-modal" class="modal-toggle" />
+                <div class="modal">
+                <div class="modal-box">
+                    <div class="thead flex justify-between">
+                <h3 class="font-bold text-lg">New User</h3>
+                <button  class="btn-xs btn-square btn-outline">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg>
+                  </button>
+                    </div>
+                    <div class="uform mt-3 ">
+                        <div class="form-control w-full max-w-xs">
+                            <label class="label">
+                              <span class="label-text">User name*</span>
+                            </label>
+                            <input type="text" placeholder="user name" class="input input-bordered w-full max-w-xs" />
+                            <label class="label">
+                            </label>
+                          </div>
+                          <div class="form-control w-full max-w-xs">
+                            <label class="label">
+                              <span class="label-text">Password*</span>
+                            </label>
+                            <input type="password" placeholder="Enter Password" class="input input-bordered w-full max-w-xs" />
+                            <label class="label">
+                            </label>
+                          </div>
+                          <div class="form-control w-full max-w-xs">
+                            <label class="label">
+                              <span class="label-text">Name</span>
+                            </label>
+                            <input type="text" placeholder="Name" class="input input-bordered w-full max-w-xs" />
+                            <label class="label">
+                            </label>
+                          </div>
+                          <div class="form-control w-full max-w-xs">
+                            <label class="label">
+                              <span class="label-text">Surname</span>
+                            </label>
+                            <input type="text" placeholder="surname" class="input input-bordered w-full max-w-xs" />
+                            <label class="label">
+                            </label>
+                          </div>
+                          <div class="form-control w-full max-w-xs">
+                            <label class="label">
+                              <span class="label-text">Email</span>
+                            </label>
+                            <input type="email" placeholder="Enter Email" class="input input-bordered w-full max-w-xs" />
+                            <label class="label">
+                            </label>
+                          </div>
+                          <div class="form-control w-full max-w-xs">
+                            <label class="label">
+                              <span class="label-text">phone</span>
+                            </label>
+                            <input type="number" placeholder="number" class="input input-bordered w-full max-w-xs" />
+                            <label class="label">
+                            </label>
+                          </div>
+                    </div>
+            <div class="modal-action">
+                <label for="my-modal" class="btn">Cancel</label>
+                    <label for="my-modal" class="btn">Save</label>
+    </div>
+  </div>
+</div>
+                </div>
+                <div class="ttable mt-2">
+                    <div class="overflow-x-auto">
+                        <table class="table w-full">
+                          <!-- head -->
+                          <thead>
+                            <tr>
+                              <th></th>
+                              <th>Actions</th>
+                              <th>User Name</th>
+                              <th>Email</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <!-- row 1 -->
+                            <tr>
+                              <th>1</th>
+                              <td><div class="dropdown">
+                                <label tabindex="0" class="btn m-1">Actions</label>
+                                <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+                                  <li><a>Permision</a></li>
+                                  <li><a>Edit</a></li>
+                                </ul>
+                              </div></td>
+                              <td>Nadeem</td>
+                              <td>nadeem@gmail.com</td>
+                            </tr>
+                            <!-- row 2 -->
+                            <tr>
+                              <th>2</th>
+                              <td><div class="dropdown">
+                                <label tabindex="0" class="btn m-1">Actions</label>
+                                <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+                                  <li><a>Permision</a></li>
+                                  <li><a>Edit</a></li>
+                                </ul>
+                              </div></td>
+                              <td>ashiq</td>
+                              <td>ashiq@gmail.com</td>
+                            </tr>
+                            <!-- row 3 -->
+                            <tr>
+                                <th>3</th>
+                                <td><div class="dropdown">
+                                  <label tabindex="0" class="btn m-1">Actions</label>
+                                  <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+                                    <li><a>Permision</a></li>
+                                    <li><a>Edit</a></li>
+                                  </ul>
+                                </div></td>
+                                <td>ashithosh</td>
+                                <td>ashithosh@gmail.com</td>
+                              </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+
+

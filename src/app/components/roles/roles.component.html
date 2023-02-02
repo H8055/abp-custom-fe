@@ -1,19 +1,119 @@
-<div class="rolesMain">
-    <div class="rolesTitle">Roles</div>
-    <div class="addRolesBtn">
-        <!-- The button to open modal -->
-<label for="my-modal" class="btn">Add Roles</label>
 
-<!-- Put this part before </body> tag -->
-<input type="checkbox" id="my-modal" class="modal-toggle" />
-<div class="modal">
-  <div class="modal-box">
-    <h3 class="font-bold text-lg">Congratulations random Internet user!</h3>
-    <p class="py-4">You've been selected for a chance to get one year of subscription to use Wikipedia for free!</p>
-    <div class="modal-action">
-      <label for="my-modal" class="btn">Yay!</label>
-    </div>
+
+        <div class="mainCon">
+          <div class="section1">
+              <app-sidebar></app-sidebar>
+
+          </div>
+          <div class="section2">
+              <app-navbar ></app-navbar>
+            <div class="mainContainer flex flex-col pl-5 pr-3">
+              <div class="createtenant flex justify-between " >
+                  <div class="tenantText text-lg font-semibold">Roles</div>
+                  <!-- The button to open modal -->
+                  <label for="my-modal" class="btn mr-3">New Roles</label>
+
+
+                  <!-- Put this part before </body> tag -->
+              <input type="checkbox" id="my-modal" class="modal-toggle" />
+              <div class="modal">
+              <div class="modal-box">
+                  <div class="thead flex justify-between">
+              <h3 class="font-bold text-lg">New Roles</h3>
+              <button  class="btn-xs btn-square btn-outline">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg>
+                </button>
+                  </div>
+                  <div class="tform">
+                      <div class="form-control w-full max-w-xs">
+                          <label class="label">
+                            <span class="label-text">Role Name*</span>
+                          </label>
+                          <input type="text" placeholder="role name" class="input input-bordered w-full max-w-xs" />
+                          <label class="label">
+                          </label>
+                        </div>
+                        
+                  </div>
+          <div class="modal-action">
+              <label for="my-modal" class="btn">Cancel</label>
+                  <label for="my-modal" class="btn">Save</label>
   </div>
 </div>
-    </div>
 </div>
+              </div>
+              <div class="ttable mt-2">
+                  <div class="overflow-x-auto">
+                      <table class="table w-full">
+                        <!-- head -->
+                        <thead>
+                          <tr>
+                            <th></th>
+                            <th>Actions</th>
+                            <th>Role Name</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <!-- row 1 -->
+                          <tr>
+                            <th>1</th>
+                            <td><div class="dropdown">
+                              <label tabindex="0" class="btn m-1">Actions</label>
+                              <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+                                <li><a>Permision</a></li>
+                                <li><a>Edit</a></li>
+                              </ul>
+                            </div></td>
+                            <td>Admin</td>
+                            <td></td>
+
+                          </tr>
+                          <!-- row 2 -->
+                          <tr>
+                            <th>2</th>
+                            <td><div class="dropdown">
+                              <label tabindex="0" class="btn m-1">Actions</label>
+                              <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+                                <li><a>Permision</a></li>
+                                <li><a>Edit</a></li>
+                              </ul>
+                            </div></td>
+                            <td>HR</td>
+                            <td></td>
+
+                          </tr>
+                          <!-- row 3 -->
+                          <tr>
+                              <th>3</th>
+                              <td><div class="dropdown">
+                                <label tabindex="0" class="btn m-1">Actions</label>
+                                <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+                                  <li><a>Permision</a></li>
+                                  <li><a>Edit</a></li>
+                                </ul>
+                              </div></td>
+                              <td>CEO</td>
+                              <td></td>
+                            </tr>
+                            <!-- row 4 -->
+                          <tr>
+                            <th>4</th>
+                            <td><div class="dropdown">
+                              <label tabindex="0" class="btn m-1">Actions</label>
+                              <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+                                <li><a>Permision</a></li>
+                                <li><a>Edit</a></li>
+                              </ul>
+                            </div></td>
+                            <td>Employee</td>
+                            <td></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+

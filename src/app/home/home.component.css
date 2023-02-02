@@ -1,1 +1,27 @@
-/*# sourceMappingURL=home.component.css.map */
+.mainCon {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  background-color: #f4f5fa;
+  height: 100%;
+}
+.mainCon .section1 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 100vh;
+}
+.mainCon .section2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.mainCon .section2 .mainContainer {
+  display: flex;
+  width: 100%;
+  margin-top: 1rem;
+}/*# sourceMappingURL=home.component.css.map */

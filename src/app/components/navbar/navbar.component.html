@@ -1,11 +1,15 @@
-<div class="navbar bg-base-100">
+<div class="navmain">
+
+  <div class="navbar bg-base-100">
     <div class="flex-1">
-      <a onclick="my-drawer" class=" normal-case text-xl ml-10">abp</a>
+      <a class="btn btn-ghost normal-case text-xl">ABP</a>
     </div>
     <div class="flex-none gap-2">
       <div class="form-control">
         <input type="text" placeholder="Search" class="input input-bordered" />
       </div>
+      <button  class="btn btn-outline" (click)="login()">Login</button>
+      <!-- *ngIf="!hasLoggedIn" -->
       <div class="dropdown dropdown-end">
         <label tabindex="0" class="btn btn-ghost btn-circle avatar">
           <div class="w-10 rounded-full">
@@ -20,8 +24,10 @@
             </a>
           </li>
           <li><a>Settings</a></li>
-          <li><a>Logout</a></li>
+          <li><a (click)="logout()">Logout</a></li>
         </ul>
       </div>
     </div>
   </div>
+</div>
+
